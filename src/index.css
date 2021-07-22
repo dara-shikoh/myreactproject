@@ -1,0 +1,411 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+.navbar{
+  
+  padding: .2rem;
+  background-color: black;
+  position: sticky;
+  top: 0px;
+}
+.under_navbar{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: .9rem auto;
+  
+  }
+.navbar_right ul {
+  display: flex;
+  
+}
+.navbar_right ul li{
+  margin: 0 1rem;
+  list-style: none;
+
+}
+.navbar_right ul li a{
+  text-decoration: none;
+  color: white;
+}
+.navbar_left h4{
+  font-size: 1.3rem;
+  color:white;
+
+}
+.navbar_left span{
+  color: red;
+  
+
+}
+/* ----------------XX-----------------XX------------------------- */
+
+.main_hero{
+  background-color:rgb(99, 83, 83);
+  }
+  
+.right_hero img{
+  
+  margin-top: 2rem;
+  margin-right: 3rem;
+  
+  
+}
+
+.hero{
+  max-width: 90%;
+  display: flex;
+  margin: 1rem auto;
+}
+.under_hero{
+  width: 70%;
+  margin: auto;
+}
+.left_hero{
+  margin-left: 8rem;
+}
+.left_hero h1{
+  font-size: 2.5rem;
+  letter-spacing: .2rem;
+  color: white;
+  line-height: 3rem;
+  line-height: 4rem;
+}
+.left_hero p{
+  font-size: .8rem;
+  margin-left: 1rem;
+  color: white;
+  letter-spacing: .1rem;
+}
+.left_hero button{
+  margin-top: .9rem;
+  margin-left: 6rem;
+  padding: .6rem 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid red;
+  color: white;
+  border-radius: .4rem;
+  letter-spacing: .1rem;
+  cursor: pointer;
+  transition: .7s;
+  
+}
+ button:hover{
+  background-color: white;
+  color: black;
+}
+
+/* ----------------XX-----------------XX------------------------- */
+
+.About{
+  
+padding: 1rem;
+  background-color:rgb(99, 83, 83);
+}
+.main_about{
+  max-width: 50rem;
+  display: flex;
+  margin: 5rem auto;
+
+  
+}
+.left_about img{
+  width:16rem;
+  border-radius: 1rem;
+  box-shadow: 2px 3px 4px black;
+
+  
+}
+.right_about{
+  text-align: center;
+  margin: auto 5rem;
+  color: white;
+}
+.right_about h6{
+  margin-top: 1rem;
+  letter-spacing: .1rem;
+  line-height: 1rem;
+}
+.right_about h2{
+  line-height: 2.5rem;
+  letter-spacing: .1rem;
+}
+.right_about h5{
+  letter-spacing: .1rem;
+}
+
+/* ----------------xx------------------xx------------------ */
+
+.under_service {
+  max-width: 70%;
+  margin: 1rem auto;
+  margin-top: 5rem;
+  
+}
+.main_service h2{
+  color: white;
+  line-height: 2.5rem;
+  letter-spacing: .1rem;
+  
+}
+.main_service p{
+  color: white;
+  font-size: .7rem;
+  letter-spacing: .07rem;
+  line-height: 1rem;
+}
+
+.main_service img{
+  transition: all 1.5s;
+  width: 18.6rem;
+  height: 6.5rem;
+  object-fit: cover;
+  
+}
+.main_service{
+  background-color: rgb(99, 83, 83);
+  float: left;
+width: 18.6rem;
+height: 16rem;
+margin-right: 1rem;
+/* border: 1px solid blue; */
+text-align:center;
+margin-bottom: 1rem;
+box-shadow:  2px 4px 7px black;
+transition:all .5s;
+ 
+}
+
+.main_service:hover{
+  background-color: black;
+}
+.main_service:hover img{
+  transform: rotate(360deg);
+
+}
+.main_service button{
+  padding: .6rem 1rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: .4rem;
+  letter-spacing: .1rem;
+  cursor: pointer;
+  transition: .7s;
+  margin-top: .1rem;
+}
+
+/* --------------xx---------------xx------------------------ */
+.logo ul{
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.logo ul li{
+  list-style: none;
+  font-size: 1.5rem;
+  background-color:transparent;
+  padding: .4rem;
+  text-align: center;
+  margin: .5rem ;
+  border-radius: 40%;
+  cursor: pointer;
+  transition: .5s;
+  filter: drop-shadow(0px 5px 1px black);
+  
+}
+.logo ul li:hover{
+  background:green;
+  
+}
+/* ---------------xx----------------xx---------------------------- */
+.main_contact
+{
+  background-color: rgb(99, 83, 83);
+  height: 20rem;
+  margin-top: -.2rem;
+  
+}
+.contact h2{
+  text-align: center;
+  line-height: 4rem;
+  letter-spacing: .1rem;
+  color: white;
+}
+.under_contact{
+  display: flex;
+  margin-top:3rem ;
+  width: 70%;
+  margin: auto;
+justify-content: space-between;
+
+  
+  }
+  .left_contact img{
+    width: 30rem;
+    height: 10rem;
+    }
+
+  .left_contact h4{
+    color: white;
+    text-align:center;
+
+  }
+  .right_contact input{
+    width: 18rem;
+    padding: .3rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: .2rem;
+
+  }
+   /* .........xx...............xx................. */
+
+.different{
+  margin-top: -64px;
+  margin-right: 50px;
+  text-align: center;
+  color:white;
+  padding-top: 10px;
+  letter-spacing: .1rem;
+}
+.different_service{
+  
+  background-color:rgb(99, 83, 83);
+  height:650px;
+
+}
+/* ---------xx---------------------xx------------------------ */
+
+.footer{
+  margin-top: 1rem;
+  background-color: black;
+  padding: 4rem;
+}
+.left_footer{
+  color:white;
+  letter-spacing: .1rem;
+  line-height: 1.4rem;
+  margin-bottom: 5rem auto;
+
+}
+.left_footer h4{
+  color: blue;
+  margin-top: .3rem;
+}
+.left_footer h3{
+  line-height: 1.6rem;
+  color: blue ;
+}
+ .footer .under_footer{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: auto;
+}
+.right_footer{
+  color: white;
+  margin: auto;
+}
+
+.right_footer p{
+  margin-top: 9rem;
+  font-size: .7rem;
+}
+/* ----------xx------------------xx--------------------- */
+@media(max-width:700px){
+
+.navbar_right ul {
+   font-size: smaller;
+   flex-direction:column;
+
+  }
+  .hero{
+    width: 100%;
+    flex-direction: column;
+  }
+  .right_hero img{
+    width: 100%;
+    
+  }
+  .left_hero{
+    width: 100%;
+    margin: 0px auto;
+    
+  }
+.left_hero h1{
+  line-height:2.5rem;
+  font-size: 2rem;
+}
+.left_hero p{
+  font-size: .7rem;
+  
+  margin: auto;
+}
+.left_hero button{
+  padding: 0.5rem 1.5rem;
+  margin: 1rem auto ;
+}
+
+.main_about{
+  flex-direction: column;
+  width: 100%;
+  
+
+}
+
+.right_about{
+  width: 100%;
+  margin: auto;
+}
+.logo ul{
+  width: 100%;
+  margin: auto;
+  margin-left: -1rem;
+}
+.under_service {
+  width: 100%;
+  
+  margin: auto;
+}
+.different_service{
+  
+  height:1700px
+}
+
+.under_service{
+  max-width: 100%;
+  margin-left: 1rem;
+  
+}
+.under_contact{
+  flex-direction: column;
+  width: 100%;
+  
+  }
+  .main_contact{
+    height: 30rem;
+  }
+  .left_contact img{
+    width: 10rem;
+    margin-left:5rem;
+  }
+  .right_contact input{
+    margin-left: 1rem;
+  }
+  .under_footer{
+    flex-direction: column;
+  }
+  .right_footer{
+    width:100% ;
+    margin-left: -5rem;
+    
+  }
+}
